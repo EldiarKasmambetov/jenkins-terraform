@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "kaizen-bucket-class4"
+    bucket = "eldiar-bucket"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }
